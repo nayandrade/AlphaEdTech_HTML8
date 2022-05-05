@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Exercício HTML-8" />
+        <meta
+            property="og:url"
+            content="https://github.com/nayandrade/AlphaEdTech_HTML8"
+        />
+        <meta
+            property="og:image"
+            content="https://i.ibb.co/Jqz78j3/maxresdefault.jpg"
+        />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="225" />
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="shortcut icon"
+            href="https://static.wixstatic.com/media/3d3594_71efe0bedca94d52afdf1a69d964da18%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/3d3594_71efe0bedca94d52afdf1a69d964da18%7Emv2.png"
+        />
+        <title>Exercício iframe</title>
+    </head>
+    <body
+        style="
+            font-family: 'Roboto', sans-serif;
+            background: url('https://i0.wp.com/www.csscodelab.com/wp-content/uploads/2020/03/css-background-image-linear-gradient.png?fit=1048%2C670&ssl=1')
+                center center no-repeat;
+            background-size: 100% 100%;
+        "
+    >
+        <header style="text-align: center">
+            <h1 style="color: rgba(20, 20, 20, 0.9)">OLÁ MUNDO</h1>
+            <h2 style="color: rgba(20, 20, 20, 0.9)">
+                Estou aprendendo a usar a tag iframe!
+            </h2>
+        </header>
+        <main
+            style="display: flex; align-items: center; flex-direction: column"
+        >
+            <section
+                style="
+                    width: 80%;
+                    text-align: center;
+                    border: 3px solid rgba(0, 0, 0, 0.8);
+                    border-radius: 30px;
+                    padding: 20px;
+                    margin: 20px 0;
+                    background-color: rgba(255, 255, 255, 0.3);
+                "
+            >
+                <h3 style="color: rgba(24, 23, 23, 0.8)">
+                    Primeiramente, estou importando um elemento iframe de uma
+                    página criada por mim!
+                </h3>
+                <iframe
+                    src="https://nayandrade.github.io/AlphaEdTech_HTML1/"
+                    title="Linguagem de notação HTML - Part 1"
+                    width="90%"
+                    height="400"
+                    frameborder="0"
+                ></iframe>
+            </section>
+            <section
+                style="
+                    width: 80%;
+                    text-align: center;
+                    border: 3px solid rgba(0, 0, 0, 0.8);
+                    border-radius: 30px;
+                    padding: 20px;
+                    margin: 20px 0;
+                    background-color: rgba(255, 255, 255, 0.3);
+                "
+            >
+                <h3 style="color: rgba(24, 23, 23, 0.8)">
+                    Agora estou exibindo o conteúdo de outra página que esteja
+                    em outro servidor na internet - Incorporei minha cidade.
+                </h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126418.25672606562!2d-35.004428538663156!3d-8.043135262366793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab196f94e5408b%3A0xe5800ef782bde3a6!2sRecife%2C%20PE!5e0!3m2!1spt-BR!2sbr!4v1651762399866!5m2!1spt-BR!2sbr"
+                    width="90%"
+                    height="600"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </section>
+            <section
+                style="
+                    width: 80%;
+                    text-align: center;
+                    border: 3px solid rgba(0, 0, 0, 0.8);
+                    border-radius: 30px;
+                    padding: 20px;
+                    margin: 20px 0;
+                    background-color: rgba(255, 255, 255, 0.3);
+                "
+            >
+                <h3 style="color: rgba(24, 23, 23, 0.8)">
+                    Agora estou exibindo o conteúdo do youtube.
+                </h3>
+                <iframe
+                    width="90%"
+                    height="600"
+                    src="https://www.youtube.com/embed/QH2-TGUlwu4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+                <!-- <iframe width='1080' height='760' src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe> -->
+            </section>
+        </main>
+    </body>
+</html>
